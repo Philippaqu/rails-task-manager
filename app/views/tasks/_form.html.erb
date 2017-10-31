@@ -1,0 +1,5 @@
+<%= form_for(@task) do |f| %>
+  <%= f.text_field :name, placeholder: "Enter task name" %>
+  <%= f.text_field :details, placeholder: "Enter details" %>
+  <%= f.submit %>
+<% end %>
